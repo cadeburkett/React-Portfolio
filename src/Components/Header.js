@@ -6,7 +6,10 @@ function Header() {
     <header>
         <nav className="navbar navbar-light bg-light">
             <span className="navbar-brand mb-0 h1">Michael Burkett</span>
-            <ul className="nav justify-content-end">
+            {/* <button>
+                <span className="navbar-toggler-icon"></span>
+            </button> */}
+            <ul className="nav collapse navbar-collapse justify-content-end">
                 <li className="nav-item">
                     <Link className="nav-link" to="/">About Me</Link>
                 </li>

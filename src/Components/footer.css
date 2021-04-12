@@ -3,4 +3,13 @@ footer {
     position: fixed;
     bottom: 0px;
     width: 100vw;
+    background-color: black;
 }
+
+.footerText {
+    width: fit-content;
+    margin: auto;
+    font-size: 25px;
+    color: white;
+}
+
